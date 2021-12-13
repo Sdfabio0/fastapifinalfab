@@ -11,6 +11,6 @@ port = os.environ["PORT"]
 app = FastAPI()
 @app.get("/")
 def index():
-    return {"data": "Hello there my Only Only friend !!!"}
+    return {"data": "Hello there my Only friend !!!"}
 if __name__ == "__main__":
     uvicorn.run("main:app", host = '0.0.0.0', port=port, reload=False)
