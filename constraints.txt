@@ -1,0 +1,7 @@
+For coastal container terminal operations only, when there are five (5) employees or more (except for employees assigned to the loading and/or unloading of the ship), one (1) foreman-checker will be used to direct the work at the container terminal.
+The foreman-checker will be chosen among the checker-operators.
+Assignment preference on daytime shifts will be given to those who have accumulated the most assignments on evening/night shifts, subject to the priority of employees restricted to a daytime assignment only.
+Assignment preference on evening/night shifts will be given to those who have accumulated the least number of assignments on those shifts.
+Assignment preference on daytime shifts will be given to those who have accumulated the greatest number of advanced hours, subject to the priority of employees restricted to a daytime assignment only.
+Assignment preference on evening/night shifts will be given to those who have accumulated the least number of advanced hours.
+Employees who are members of a gang are assigned in priority with their gang when the latter is required.

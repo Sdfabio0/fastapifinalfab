@@ -4,6 +4,8 @@ FROM python:3.7.9-slim
 WORKDIR /app
 # copy files to the /app folder in the container
 COPY ./main.py /app/main.py
+COPY ./constraints.txt /app/constraints.txt
+COPY ./datatable.pkl /app/datatable.pkl
 COPY ./Pipfile /app/Pipfile
 COPY ./Pipfile.lock /app/Pipfile.lock
 # install the packages from the Pipfile in the container

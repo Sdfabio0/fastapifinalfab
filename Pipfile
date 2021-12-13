@@ -7,6 +7,14 @@ name = "pypi"
 fastapi = "*"
 uvicorn = "*"
 python-dotenv = "*"
+pydantic = "*"
+spacy = "*"
+nltk = "*"
+transformers = "*"
+deep-translator = "*"
+sentencepiece = "*"
+protobuf = "*"
+torch = "*"
 
 [dev-packages]
 
