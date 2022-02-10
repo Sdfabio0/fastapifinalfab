@@ -124,5 +124,9 @@ async def read_root(
     dic = {'NUM_EMPLOYEES': col1, 'SHIFT_TIME': col2, 'CODE': col3, 'RULE': col4, 'CONSTRAINT_SENTS': col5,'CONDITIONS': col6}
     return dic
 
+@app.get("/sql")
+async def generate_sql(sent):
+    return get_sql(sent)
+
 if __name__ == "__main__":
     uvicorn.run("main:app", host = '0.0.0.0', port=port, reload=False)
